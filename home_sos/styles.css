@@ -1,0 +1,138 @@
+/* Resets Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos Gerais */
+.container {
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Estilos Barra de Navegação */
+nav {
+    flex: 1;
+    margin-top:12px;
+    box-shadow: 2px 2px 5px #B5B5B582;
+    height: 85px;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+ul {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1C1C1C;
+    padding-right: 10px;
+}
+nav ul li a:hover {
+    font-size: 22px;
+}
+
+
+.logo {
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #606EFF;
+}
+
+
+/* Sessão Principal */
+.main {
+    margin-top: 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-text {
+    padding-left: 20px;
+    max-width: 500px;
+}
+@media (max-width: 455px){
+    nav {
+        padding: 0;
+    }
+    h1 {
+        margin-left: 15px;
+        font-size: 13px;
+    }
+    .box-text {
+        margin-top: 40px;
+        max-width: 400px;
+    }
+	.box-img {
+		display: none;
+	}
+    .img-about{
+        display: none;
+    }
+}
+
+.main p {
+    font-size: 14px;
+    color: #808080;
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.main h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Botões */
+.main button {
+    border-style: none;
+
+    height: 40px;
+    width: 125px;
+
+    background-color: #606EFF;
+    color: #fff;
+
+    font-weight: 500;
+}
+main button:hover {
+    opacity: 80%;
+}
+
+/* Sobre */
+.about {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-about {
+    height: 350px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.about-text {
+    max-width: 420px;
+}
+
+.about-text h1 {
+    font-size: 26px;
+    color: #1C1C1C;
+}
+
+.about p {
+    font-size: 14px;
+    color: #4F4F4F;
+    margin-top: 15px;
+}
