@@ -56,8 +56,11 @@ nav ul li a:hover {
 }
 
 .box-text {
-    padding-left: 20px;
+    padding-left: 80px;
     max-width: 500px;
+}
+.box-img {
+    margin-right: 80px;
 }
 @media (max-width: 455px){
     nav {
