@@ -71,6 +71,8 @@ nav ul li a:hover {
         font-size: 13px;
     }
     .box-text {
+        padding-left: 3px;
+        padding-right: 3px;
         margin-top: 40px;
         max-width: 400px;
     }
